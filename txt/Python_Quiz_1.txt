@@ -1,0 +1,14 @@
+Question 10:
+
+What is a correct syntax to return the first character in a string?
+x = "Hello".sub(0, 1)    
+x = sub("Hello", 0, 1)
+x = "Hello"[0]   Correct answer 
+
+
+Question 21:
+
+Which collection does not allow duplicate members?
+TUPLE
+LIST
+SET    Correct answer  

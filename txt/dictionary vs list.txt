@@ -1,0 +1,25 @@
+A list has order,it has zero one two..
+A dictionary has no order
+
+Dictionary holds more information key:value | value for list
+
+
+# List
+
+["apple", "banana", "cherry"]
+
+# Tuple
+
+("apple", "banana", "cherry")
+
+# Sets
+
+{"apple", "banana", "cherry"}
+
+# Dictionary
+
+ {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
