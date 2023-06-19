@@ -9,28 +9,21 @@ class playercharacter:
         print('run')
         return 'done'
 
+    @classmethod
+    def adding_things(cls, num1, num2):
+        return num1 + num2
+    
+    @staticmethod
+    def adding_things2(num1, num2):
+        return num1 + num2
+    
+print(playercharacter.adding_things(2,3))
+print(playercharacter.adding_things2(2,3))
+
 player1 = playercharacter('Cindy', 44)
 player2 = playercharacter('Tom', 21)
 
+
+
 print(player1.run())
-print(player2.age)
-
-#attributes and methods
-
-class playercharacter:
-    # class object attribute
-    membership = True
-
-    def __init__(self, name, age):
-        if (self.membership): #(playercharacter.membership)
-            self.name = name #attributes
-            self.age = age
-
-    def shout(self):
-        print(f' my name is {self.name}')
-
-
-player1 = playercharacter('Cindy', 44)
-
-print(player1.membership)
-print(player1.shout())
+print(player2.age) 
