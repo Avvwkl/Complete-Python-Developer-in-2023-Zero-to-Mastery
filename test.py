@@ -1,3 +1,14 @@
-alist = [1,2]
+# Import the required library
+from tkinter import *
+from tkinter.simpledialog import askstring
+from tkinter.messagebox import showinfo
 
-print(alist+3)
+# Create an instance of tkinter frame and window
+win=Tk()
+win.geometry("700x300")
+
+name = askstring('Name', 'What is your name?')
+print(name)
+showinfo('Hello!', 'Hi, {}'.format(name))
+
+win.mainloop()
